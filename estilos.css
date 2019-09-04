@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    
+
 }
 h1 {
     /* font-size editará el tamaño */
@@ -32,6 +32,36 @@ body {
 .agrupar {
     margin: 15px auto;
     width: 960px;
-    background: grey;
+    border: 1px solid black;
+    
     /* padding: 40px; */
+}
+.cabecera {
+    background: #00ACC1;
+    border: 1px solid #999999;
+    padding: 20px;
+
+}
+.cabecera h1 {
+    text-align: left;
+}
+
+.menu {
+    background: #BDBDBD;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+/* Para referirme a un elemento dentro de otro, "menu" es una clase y "li" es el elemento o tag del HTML */
+.menu li {
+    /* list-style se refiere a la forma en la que se ve la lista, en este casi borra las bolitas que por defecto contiene */
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    /* Indica alineados uno al lado del otro */
+    display: inline-block;
+}
+
+.seccion {
+    
 }
