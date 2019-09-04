@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+h1 {
+    /* font-size editará el tamaño */
+    font-size: 30px;
+    /* font-family camviará la fuente que se usará */
+    font-family: sans-serif;
+    /* font-weight anuncia que cambiará el grosor para las fuentes */
+    font-weight: bold;
+}
+
+h2 {
+    /* Puedo agrupar todas las reglas en una sola. */
+    font: bold 14px san-serif;
+    /* font-weight: bold;
+    font-size: 23px;
+    font-family: sans-serif; */
+}
+/* Con CSS puedo seleccionar diferentes tags en una sola línea */
+header, section, footer, aside, nav, article hgroup {
+    display: block;
+
+}
+/* Edita el cuerpo del documento */
+body {
+    text-align: center;
+}
+/* editará la clase que se llame "agrupar" */
+.agrupar {
+    margin: 15px auto;
+    width: 960px;
+    background: grey;
+    /* padding: 40px; */
+}
