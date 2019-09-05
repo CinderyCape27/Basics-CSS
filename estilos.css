@@ -21,6 +21,7 @@ h2 {
 }
 /* Con CSS puedo seleccionar diferentes tags en una sola línea */
 header, section, footer, aside, nav, article hgroup {
+    /* es una regla que indica que los contenedores serán uno debajo del otro */
     display: block;
 
 }
@@ -63,5 +64,45 @@ body {
 }
 
 .seccion {
-    
+    margin: 20px;
+    width: 60%;
+    /* float indica que la sección se saldra del div en el que está, quedará flotando */
+    float: left;
+
+}
+article {
+    background: #fffbcc;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+time {
+    color: #999999;
+}
+article footer {
+    text-align: right;
+    margin-top: 20px;
+}
+.columna {
+    width: 30%;
+    margin: 20px 0px;
+
+    float: left;
+}
+.columna blockquote {
+    border: 1px solid black;
+    padding: 40px;
+    background: #16a085;
+    margin-bottom: 20px;
+}
+.pie {
+    /* clear:both; hace que se ignoren los efectos del float aun estando dentro de su regla */
+    clear: both;
+    padding: 20px;
+    background: #16a085;
+}
+img {
+    width: 80px;
+    display: block;
+    margin: 20px auto;
 }
